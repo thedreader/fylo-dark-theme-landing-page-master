@@ -1,0 +1,313 @@
+body{
+  margin:0;
+  text-align:center;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  word-spacing: 2px;
+}
+@media screen and (min-width: 375px) {
+  .header{
+    margin-top: 45px;
+    margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
+    width: 45%;
+  }
+  .head-logo{
+    margin-left: 35px;
+    margin-right: 70px;
+    width: 140px;
+  }
+  .introbar{
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    position: relative;
+    left: 85%;
+    top: -136px;
+  }
+  .navbar{
+    margin-left: 12%;
+  }
+  .intro{
+    width:159%;
+    margin-left: 13%;
+    margin-bottom: 230px;
+  }
+  .intro-img{
+    margin-left: 6%;
+    height: 409px;
+    margin-bottom: 20px;
+  }
+  .intro-head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    word-spacing: 7px;
+  }
+  .intro-des{
+    word-spacing: 3px;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    line-height: 1.4;
+    margin-left:7%;
+    width: 87%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .btn {
+  margin-left: 12px;
+  background: #81D9D4;
+  background-image: -webkit-linear-gradient(90deg, #81D9D4, #339ECC);
+  background-image: -moz-linear-gradient(90deg, #81D9D4, #339ECC);
+  background-image: -ms-linear-gradient(90deg, #81D9D4, #339ECC);
+  background-image: -o-linear-gradient(90deg, #81D9D4, #339ECC);
+  background-image: linear-gradient( 90deg, #81D9D4, #339ECC);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 38px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 25px 120px 25px 120px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #339ECC;
+  background-image: -webkit-linear-gradient(90deg, #339ECC, #3bdbd0);
+  background-image: -moz-linear-gradient(90deg, #339ECC, #3bdbd0);
+  background-image: -ms-linear-gradient(90deg, #339ECC, #3bdbd0);
+  background-image: -o-linear-gradient(90deg, #339ECC, #3bdbd0);
+  background-image: linear-gradient(90deg, #339ECC, #3bdbd0);
+  text-decoration: none;
+}
+.contained{
+  margin-bottom: 190px;
+  margin-left:20.5%;
+  width: 145%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+}
+.contenthead{
+  margin: 50px auto 30px auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+
+}
+.contentdes{
+  margin-left: 7.5%;
+  width: 85%;
+}
+.store{
+  margin-left: 5.5%;
+  width: 90%;
+}
+.productive-img{
+  height: 359px;
+  margin-bottom: 35px;
+}
+.productive{
+  text-align: left;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  margin-left:20.5%;
+  width: 147%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+}
+.prohead{
+  font-family: 'Raleway', sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+}
+.prodes{
+  width: 88%;
+}
+.flyo{
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 10px;
+  width: 210px;
+ border-bottom: hsl(176, 68%, 64%) solid 1px;
+ margin-bottom: 300px;
+}
+.flyo-work{
+ text-decoration: none;
+ color: hsl(176, 68%, 64%);
+ font-size: 19px;
+}
+.arrow{
+  margin-bottom: -4px;
+  margin-left: 1%;
+  display: inline-flex;
+  height:19px;
+  width:19px;
+}
+.quote-img{
+  height: 25px;
+  width:32px;
+  margin-bottom: -13px;
+  margin-left: -18%;
+}
+.review{
+  padding: 59px 55px 50px 52px;
+  margin-left: 29%;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:hsl(219, 30%, 18%);
+  border-radius: 8px;
+  -webkit-box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+-moz-box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+}
+.review-des{
+  font-size: 19px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+.reviewer{
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+.reviewer-id{
+  margin-top: 0;
+  font-size: 13px;
+}
+.pro-img{
+  margin-right: 15px;
+  float: left;
+  border-radius: 50%;
+  height: 55px;
+  width:55px;
+}
+.email-sub{
+  position: relative;
+  top: 277px;
+  width: 146%;
+  margin-left: 15%;
+  background-color: hsl(217, 28%, 15%);
+  padding: 40px 17px 77px 17px;
+  border-radius: 17px;
+  -webkit-box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+-moz-box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+box-shadow: -2.7px 25px 44px -10px rgba(0,0,0,0.74);
+}
+.sub-head{
+  font-family: 'Raleway', sans-serif;
+  font-size: 34px;
+  margin-left: -1.5%;
+}
+.sub-des{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 78%;
+  margin-left: 10.5%;
+}
+.enter-email{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  padding: 25px 120px 20px 40px;
+  border-radius: 40px;
+}
+.secnd{
+  padding: 25px 98px 22px 111px;
+  font-size: 20px;
+  margin-left: -0.05%;
+
+}
+.footer{
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(216, 53%, 9%);
+  width: 185%;
+  padding-top: 277px;
+  padding-bottom: 50px;
+}
+.foot-logo{
+  margin-top: 140px ;
+  margin-bottom:75px;
+  margin-left: -40%;
+  width: 255px;
+}
+.address{
+  text-align: left;
+  margin-bottom: 35px;
+}
+.address-logo{
+  margin-left: 52px;
+  margin-right: 31px;
+  width: 23px;
+  float:left;
+}
+.address1{
+  margin-left: 15%;
+  font-size: 23px;
+  width: 50%;
+}
+.tel{
+  text-align: left;
+  margin-bottom: 35px;
+}
+.tel-logo{
+  margin-left: 52px;
+  margin-right: 31px;
+  width: 23px;
+  float:left;
+}
+.tel1{
+  font-size: 23px;
+  width: 50%;
+  color: white;
+  text-decoration: none;
+}
+.mail{
+  text-align: left;
+  margin-bottom: 150px;
+}
+.mail-logo{
+  margin-left: 52px;
+  margin-right: 31px;
+  width: 23px;
+  float:left;
+}
+.mail1{
+  font-size: 23px;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+}
+.about{
+  text-align: left;
+  font-size: 25px;
+  margin-left: 52px;
+  margin-bottom: 70px;
+}
+.contact{
+  text-align: left;
+  font-size: 25px;
+  margin-left: 52px;
+  margin-bottom: 77px;
+}
+.social-logo{
+  width: 40px;
+  padding: 10px;
+  margin-right: 12px;
+  background-color: hsl(216, 53%, 9%);
+  border:2px solid white;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+}
